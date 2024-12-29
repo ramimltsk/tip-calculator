@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="calc.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <h2 style="letter-spacing: 5px;">SPLI <br> TTER</h2>
+  <div class="main">
+    <div class="inputs">
+      <div class="bill">
+        <p>Bill</p>
+        <input type="number" style="text-align: end;" placeholder="0">
+      </div>
+
+      <div class="tip">
+        <p>select tip %</p>
+        <div class="tips">
+          <div class="top">            
+              <button>5%</button>                        
+              <button>10%</button>                        
+              <button>15%</button>            
+          </div>
+
+          <div class="bottom">           
+              <button>25%</button>                      
+              <button>50%</button>
+              <button class="custom">Custom</button>           
+            </div>
+
+          </div>
+        </div>
+
+        <div class="people">
+          <p>Number of people</p>
+          <input type="number" placeholder="0" style="text-align: end;">
+        </div>
+      </div>
+
+      <div class="result">
+        <div class="both">
+        <div class="tt">
+          <div class="tiptext">
+            <p>Tip Amount</p>
+            <h5>/ person</h5>
+          </div>
+          <h1 class="amount">$0.00</h1>
+        </div>
+
+
+        <div class="tt">
+          <div class="tiptext">
+            <p>Total</p>
+            <h5>/ person</h5>
+          </div>
+          <h1 class="amount">$0.00</h1>
+        </div>
+
+        </div>
+
+        <div>
+        <button class="reset">RESET</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>

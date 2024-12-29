@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: hsl(185, 41%, 84%);
+    gap: 50px;
+}
+
+.main{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 20;
+    border: 0;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+}
+
+.tips div{
+    display: flex;
+    padding-top: 10px;
+}
+
+
+
+.tips button{
+    padding: 7px;
+    width: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.bottom .custom{
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom{
+    display: flex;
+    gap: 10px;
+}
+
+.result{
+    background-color: hsl(183, 100%, 15%);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.tiptext p{
+    color: white;
+    margin: 0;
+}
+
+.tiptext h5{
+    color: hsl(186, 14%, 43%);
+    margin: 0;
+}
+
+.amount{
+    color: hsl(172, 67%, 45%);
+}
+
+.tt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.reset{
+    padding: 8px;
+    padding-left:100px ;
+    padding-right: 100px;
+    border: 0;
+    background-color: hsl(183, 95%, 22%);
+    color: hsl(183, 100%, 15%);
+}
