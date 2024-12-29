@@ -6,6 +6,7 @@ body{
     height: 90vh;
     background-color: hsl(185, 41%, 84%);
     gap: 50px;
+    font-family: "Space Mono", serif;
 }
 
 .main{
@@ -23,6 +24,7 @@ input{
     border: 0;
     background-color: hsl(189, 41%, 97%);
     border-radius: 5px;
+    font-family: "Space Mono", serif;
 }
 
 .tips div{
@@ -98,4 +100,5 @@ input{
     border: 0;
     background-color: hsl(183, 95%, 22%);
     color: hsl(183, 100%, 15%);
+    font-family: "Space Mono", serif;
 }
