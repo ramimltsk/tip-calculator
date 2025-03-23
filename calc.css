@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body{
     font-family: "Space Mono", serif;
 }
 
-.main{
+.main {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
@@ -17,7 +17,7 @@ body{
     gap: 30px;
 }
 
-input{
+input {
     padding: 10px;
     padding-left: 100px;
     font-size: 20;
@@ -27,14 +27,17 @@ input{
     font-family: "Space Mono", serif;
 }
 
-.tips div{
+.tips div {
     display: flex;
     padding-top: 10px;
 }
 
+.amountTip {
+    max-width: 100px;
+    overflow: hidden;
+}
 
-
-.tips button{
+.tips button {
     padding: 7px;
     width: 90px;
     padding-left: 20px;
@@ -46,23 +49,23 @@ input{
     font-size: 17px;
 }
 
-.bottom .custom{
+.bottom .custom {
     background-color: hsl(185, 41%, 84%);
     color: hsl(183, 100%, 15%);
 }
 
-.top{
+.top {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.bottom{
+.bottom {
     display: flex;
     gap: 10px;
 }
 
-.result{
+.result {
     background-color: hsl(183, 100%, 15%);
     padding: 25px;
     border-radius: 10px;
@@ -72,30 +75,30 @@ input{
     gap: 70px;
 }
 
-.tiptext p{
+.tiptext p {
     color: white;
     margin: 0;
 }
 
-.tiptext h5{
+.tiptext h5 {
     color: hsl(186, 14%, 43%);
     margin: 0;
 }
 
-.amount{
+.amount {
     color: hsl(172, 67%, 45%);
 }
 
-.tt{
+.tt {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 80px;
 }
 
-.reset{
+.reset {
     padding: 8px;
-    padding-left:100px ;
+    padding-left: 100px;
     padding-right: 100px;
     border: 0;
     background-color: hsl(183, 95%, 22%);
