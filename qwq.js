@@ -8,51 +8,33 @@ const fiftP = document.querySelector(".tipfifteen")
 
 const twentyfvP = document.querySelector(".tiptwntfive")
 
-const fiftyP = document.querySelector(".tipfifty")
+const numberpeople = document.querySelector(".numberpeople")
 
-const
+const fiftyP = document.querySelector(".tipfifty")
 
 const amountTip = document.querySelector(".amountTip")
 
 const amountTotal = document.querySelector(".amountTotal")
 
-fiveP.addEventListener("click", () => {
-    const result = billnum.value * 0.05
-    amountTip.textContent = result
+// -----------------------------
 
-    console.log(result)
+
+const buttons = document.querySelectorAll(".btnNum")
+
+
+buttons.forEach((button) => {
+
+
+    button.addEventListener("click", () => {
+
+        const percent = +button.value
+
+        const result = billnum.value * percent / numberpeople.value
+        amountTip.textContent = "$" + result
+        let resulttwo = result + +billnum.value / +numberpeople.value
+        amountTotal.textContent = "$" + resulttwo
+    })
+
 })
-
-tenP.addEventListener("click", () => {
-    const result = billnum.value * 0.10
-    amountTip.textContent = result
-
-    console.log(result)
-})
-
-fiftP.addEventListener("click", () => {
-    const result = billnum.value * 0.15
-    amountTip.textContent = result
-
-    console.log(result)
-})
-
-twentyfvP.addEventListener("click", () => {
-    const result = (billnum.value * 0.25) /
-        amountTip.textContent = result
-
-    console.log(result)
-})
-
-fiftyP.addEventListener("click", () => {
-    const result = billnum.value * 0.50
-    amountTip.textContent = result
-
-    console.log(result)
-})
-
-
-
-
 
 
